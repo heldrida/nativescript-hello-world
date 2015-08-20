@@ -1,0 +1,11 @@
+{
+	"nativescript": {
+		"id": "org.nativescript.helloworld",
+		"tns-android": {
+			"version": "1.2.1"
+		},
+		"tns-ios": {
+			"version": "1.2.2"
+		}
+	}
+}
