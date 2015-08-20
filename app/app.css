@@ -1,16 +1,7 @@
-﻿.title {
-    font-size: 30;
-    horizontal-align: center;
-    margin:20;
+﻿label {
+	margin: 15;
 }
 
-button {
-    font-size: 42;
-    horizontal-align: center;
-}
-
-.message {
-    font-size: 20;
-    color: #284848;
-    horizontal-align: center;
+textfield {
+	margin: 15;
 }
