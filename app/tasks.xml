@@ -6,7 +6,14 @@
 		</StackLayout>
 		<ListView items="{{ tasks }}" row="1" itemTap="remove">
 			<ListView.itemTemplate>
-				<Label id="myLabel" text="{{ name }}"></Label>
+
+				<GridLayout columns="2, *">
+
+					<Label id="myLabel" text="{{ name }}" row="0" col="0"></Label>
+					<Image src="~/icon_cross.png" stretch="none" row="0" col="1"/>
+
+				</GridLayout>
+
 			</ListView.itemTemplate>
 		</ListView>
 	</GridLayout>
